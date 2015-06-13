@@ -790,13 +790,13 @@ You can disable this warning by customizing the variable
           ;; you see this warning, and you don't have any
           ;; customizations for require-final-newline, please file a
           ;; bug report.
-          (display-warning :warning "You have
-`require-final-newline' turned on.  ethan-wspace supersedes
-`require-final-newline', and so `require-final-newline' will be
-turned off.  If you turned on `require-final-newline' in your
-customizations, you can disable this warning by removing these
-customizations.  Otherwise, please file a bug report, as some
-other code has turned on `require-final-newline'.")
+;          (display-warning :warning "You have
+;`require-final-newline' turned on.  ethan-wspace supersedes
+;`require-final-newline', and so `require-final-newline' will be
+;turned off.  If you turned on `require-final-newline' in your
+;customizations, you can disable this warning by removing these
+;customizations.  Otherwise, please file a bug report, as some
+;other code has turned on `require-final-newline'.")
           (setq require-final-newline nil))
 
         (run-hooks 'ethan-wspace-errors-in-buffer-hook)
